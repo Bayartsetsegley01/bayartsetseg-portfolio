@@ -141,7 +141,7 @@ export const t = {
     projects: {
       label: "Хэрэгжүүлсэн төслүүд",
       heading: "Сүүлийн төслүүд.",
-      description: "",
+      description: "Дизайн системээс deployment хүртэл бүрэн гүйцэтгэсэн live бүтээгдэхүүнүүд.",
       items: [
         {
           title: "TradeJournal",
