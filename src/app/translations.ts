@@ -141,7 +141,7 @@ export const t = {
     projects: {
       label: "Хэрэгжүүлсэн төслүүд",
       heading: "Сүүлийн төслүүд.",
-      description: "Дизайн системээс deployment хүртэл бүрэн хүргэсэн live бүтээгдэхүүнүүд.",
+      description: "",
       items: [
         {
           title: "TradeJournal",
@@ -163,7 +163,7 @@ export const t = {
       badge: "Шинэ төсөлд бэлэн",
       heading: "Хамтдаа үнэ цэнтэй зүйл бүтээцгээе.",
       subheading: "",
-      description: "Надтай яг одоо холбогдсон ч болно.",
+      description: "Холбоглох",
       emailLabel: "Имэйл",
       phoneLabel: "Утас",
       cta: "Яриа эхлүүлэх",
