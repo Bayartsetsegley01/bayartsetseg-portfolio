@@ -157,6 +157,13 @@ export const t = {
           tags: ["React", "TypeScript", "Tailwind v4", "Motion"],
           url: "bayartsetseg.dev",
         },
+        {
+          title: "Twin Market",
+          category: "E-Commerce · Веб дизайн",
+          description: "Хүнс, ахуйн хэрэглээний бүтээгдэхүүний онлайн дэлгүүрийн вэб дизайн. Бүтээгдэхүүн хайх, ангилал, хямдрал, сагс зэрэг бүрэн e-commerce туршлагыг хэрэглэгчид ойлгомжтой, цэвэр загвараар хүргэсэн.",
+          tags: ["Figma", "UI Design", "UX Research", "E-Commerce", "Design System"],
+          url: "twinmarket.mn",
+        },
       ],
     },
     letsBuild: {
@@ -328,6 +335,13 @@ export const t = {
           description: "This site. Built with React, TypeScript, Tailwind v4. Bilingual MN/EN, dark/light mode, fully responsive design.",
           tags: ["React", "TypeScript", "Tailwind v4", "Motion"],
           url: "bayartsetseg.dev",
+        },
+        {
+          title: "Twin Market",
+          category: "E-Commerce · Web Design",
+          description: "Web design for an online grocery and household goods store. Designed a clean, intuitive e-commerce experience covering product search, categories, discounts, and cart flow.",
+          tags: ["Figma", "UI Design", "UX Research", "E-Commerce", "Design System"],
+          url: "twinmarket.mn",
         },
       ],
     },
