@@ -5,6 +5,7 @@ import tradeAIImg from "../../imports/AI_____________.png";
 import tradeAnalysisImg from "../../imports/____________________________.png";
 import tradeJournalImg from "../../imports/_____________________________.png";
 import tradeWeeklyImg from "../../imports/________________________.png";
+import martImg from "../../imports/Mart.png";
 
 interface RecentProjectsProps {
   darkMode: boolean;
@@ -64,55 +65,10 @@ function PortfolioPreview({ darkMode }: { darkMode: boolean }) {
   );
 }
 
-function TwinMarketPreview({ darkMode }: { darkMode: boolean }) {
-  const products = ["🧻", "🍎", "🍵", "🍵", "🍌", "🐟"];
+function TwinMarketPreview(_: { darkMode: boolean }) {
   return (
-    <div className="w-full h-full flex flex-col bg-white overflow-hidden text-[9px]">
-      {/* Top bar */}
-      <div className="bg-[#0a1628] text-white/70 flex justify-between px-3 py-1 text-[8px]">
-        <span>📍 Улаанбаатар хот · Хүргэлт: Өнөөдөр</span>
-        <span>☎ +976 7777-8888</span>
-      </div>
-      {/* Nav */}
-      <div className="flex items-center gap-2 px-3 py-1.5 border-b border-black/8">
-        <div className="bg-[#0a1628] text-white font-bold text-[8px] px-1.5 py-0.5 rounded">Twin</div>
-        <div className="text-[7px] text-[#0a9]">MARKET<br/><span className="text-black/30">Хүнс & Ахуй</span></div>
-        <div className="flex-1 bg-gray-100 rounded text-[7px] px-2 py-0.5 text-black/30">Бүтээгдэхүүн хайх...</div>
-        <span className="text-black/40">🛒</span>
-      </div>
-      {/* Category nav */}
-      <div className="flex gap-2 px-3 py-1 border-b border-black/8 overflow-hidden">
-        {["Бүх бүтээгдэхүүн", "Хоол хүнс", "Ундаа", "Хүүхдийн", "Цай & Кофе"].map(c => (
-          <span key={c} className="text-[7px] text-black/50 whitespace-nowrap">{c}</span>
-        ))}
-      </div>
-      {/* Hero */}
-      <div className="mx-2 mt-1.5 rounded-lg bg-[#0a1628] p-3 flex justify-between items-center">
-        <div>
-          <div className="text-white font-bold text-[10px] leading-tight">Шинэ ногоо,<br/>жимс хямдарлаа</div>
-          <div className="mt-1.5 bg-[#0aaa88] text-white text-[7px] px-2 py-0.5 rounded-full inline-block">Дэлгэрэнгүй →</div>
-        </div>
-        <div className="text-2xl">🥦</div>
-      </div>
-      {/* Badges */}
-      <div className="flex gap-1 px-2 mt-1.5">
-        {["🚚 Өнөөдөр", "✅ Чанар", "💰 Хямдрал", "⏰ 7/7"].map(b => (
-          <div key={b} className="flex-1 bg-gray-50 border border-black/6 rounded text-[6px] text-center py-0.5 text-black/50">{b}</div>
-        ))}
-      </div>
-      {/* Products */}
-      <div className="px-2 mt-1.5">
-        <div className="text-[8px] font-semibold text-black/70 mb-1">Хямдралтай бүтээгдэхүүн</div>
-        <div className="grid grid-cols-3 gap-1">
-          {products.map((p, i) => (
-            <div key={i} className="bg-gray-50 border border-black/6 rounded p-1 text-center">
-              <div className="text-base">{p}</div>
-              <div className="text-[6px] text-[#0aaa88] font-bold">-{[20,50,15,20,15,15][i]}%</div>
-              <div className="text-[6px] font-bold text-black/70">{["13,500₮","1,550₮","1,295₮","1,925₮","2,590₮","4,378₮"][i]}</div>
-            </div>
-          ))}
-        </div>
-      </div>
+    <div className="w-full h-full overflow-hidden">
+      <img src={martImg} alt="Twin Market" className="w-full h-full object-cover object-top" />
     </div>
   );
 }
